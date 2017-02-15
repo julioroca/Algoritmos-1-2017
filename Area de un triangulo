@@ -1,0 +1,44 @@
+// Autor: Sebastian Quintela//
+//Fecha: 15/02/2017
+
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main()
+
+{ float b,h,a,op;
+cout <<"Calculo del area de un triangulo"<<endl;
+
+
+
+cout <<"Por Favor ingrese la base  ";
+cin>>b;
+
+
+if(b>0){
+cout<<"Por Favor ingrese la altura  ";
+cin>>h;
+
+if(h>0)
+{
+a=(b*h)/2;
+
+
+cout<<"El area del tringulo es:  "<<a;
+}else{cout<<"error";}
+}else{cout<<"error";}
+getch();
+		
+
+
+
+
+
+}
+
