@@ -15,7 +15,7 @@ void main()
 	if((genero=='M')||(genero=='m'))
 	{
 		if(edad>=65)
-			cout<<"puede jubilarse";
+		cout<<"puede jubilarse";
 		else cout<<"no se puede jubilar";
 	}else{	
 				if((genero=='F')||(genero=='f')) 
