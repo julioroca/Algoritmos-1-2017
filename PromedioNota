@@ -1,0 +1,38 @@
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+
+void main()
+{		float E1,E2,P,FN;
+		int FL,PM;
+			cout<<"Ingrese la nota de su 1er Parcial  ";
+			cin>>E1;
+			E1=E1*0.20;
+			cout<<"Ingrese la nota de su 2er Parcial  ";
+			cin>>E2;
+			E2=E2*0.20;
+			cout<<"Ingrese la nota Practica ";
+			cin>>P;
+			P=P*0.2;
+			cout<<"Ingrese la nota de su examen final ";
+			cin>>FN;
+			FN=FN*0.4;
+			cout<<"Ingrese el numero de faltas ";
+			cin>>FL;
+
+				if(FL>10)
+					{FN=0;}		
+				PM=E1+E2+P+FN;
+
+				if(PM>=51)
+					cout<<"Aprobo la materia,su promedio es: "<<PM;
+				else cout<<"Reprobo la materia,su promedio es"<<PM;
+
+
+		getch();
+
+}
