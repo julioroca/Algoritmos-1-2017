@@ -17,14 +17,15 @@ void main()
 		if(edad>=65)
 			cout<<"puede jubilarse";
 		else cout<<"no se puede jubilar";
-	}else{	if((genero=='F')||(genero=='f')) 
-				{cout<<"Ingrese el numero de hijos:  ";
-				 cin>>hijos;
-				if(edad>=(60-hijos))
-				cout<<"se puede jubilar";
-				else cout<<"no se puede jubilar";
+	}else{	
+				if((genero=='F')||(genero=='f')) 
+				{	cout<<"Ingrese el numero de hijos:  ";
+					cin>>hijos;
+					if(edad>=(60-hijos))
+					cout<<"se puede jubilar";
+					else cout<<"no se puede jubilar";
 				}else{cout<<"opcion no valida";}		
-		}
+	     }
 
 	getch();
 
